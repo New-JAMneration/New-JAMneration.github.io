@@ -1,1 +1,1 @@
-# New-Jamneration-HomePages
+# New-JAMneration-HomePages
