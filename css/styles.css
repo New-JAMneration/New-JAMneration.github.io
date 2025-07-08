@@ -12916,10 +12916,10 @@ footer.footer .social-link:hover {
 }
 
 .icon {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  padding: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
   cursor: pointer;
 }
 
