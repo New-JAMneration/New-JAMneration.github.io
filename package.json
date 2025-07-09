@@ -1,0 +1,25 @@
+{
+  "name": "new-jamneration-homepages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build src",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/New-JAMneration/New-JAMneration-HomePages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/New-JAMneration/New-JAMneration-HomePages/issues"
+  },
+  "homepage": "https://github.com/New-JAMneration/New-JAMneration-HomePages#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
