@@ -11,6 +11,27 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/*gradient color text*/
+.gradient-text {
+  background: linear-gradient(90deg,
+      #FF4D4D, #F9CB28, #25E893, #995ED4, #FF4D4D);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientShift 5s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 /*Animation effect */
 @keyframes float {
 
